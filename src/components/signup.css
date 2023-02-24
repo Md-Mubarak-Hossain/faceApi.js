@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', san-serif;
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 252, 252);
+    padding: 90px 0 90px 0;
+}
+
+.container {
+    justify-content: center;
+    max-width: 400px;
+    height: 700px;
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+}
+
+.container .title .sub-title {
+    font-weight: 500;
+    position: relative;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.sub-title {
+    font-size: 20px;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 10px);
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: #9b59b6;
+}
+
+.left_face {
+    /* width:30px; */
+
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #0000ffa4;
+    height: 30px;
+    display: block;
+    position: absolute;
+    bottom: 8vh;
+    left: 50%;
+}
+
+.right_face {
+
+    /* width:30px; */
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #0000ffa4;
+    height: 30px;
+    display: block;
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+}
+
+.front_face {
+
+    /* width:30px; */
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #0000ffa4;
+    height: 30px;
+    display: block;
+    position: absolute;
+    bottom: -4vh;
+    left: 50%;
+}
+
+.button {
+    position: absolute;
+    bottom: -14vh;
+    left: 38%;
+    height: 45px;
+    width: 25%;
+    outline: none;
+    background-color: cyan;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(96, 209, 209);
+}
+
+canvas {
+    position: absolute;
+}
